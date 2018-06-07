@@ -55,4 +55,3 @@ def run(url):
 if __name__=='__main__':
     url='https://www.yelp.com/search?'
     run(url)
-
