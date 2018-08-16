@@ -20,14 +20,14 @@ get_ipython().system('pip install google-api-python-client')
 
 import speech_recognition as sr
 
-r = sr.Recognizer()
+A = sr.Recognizer()
 
 with sr.Microphone() as source:
     print('Speak Please: ')
-    audio = r.listen(source)
+    audio = A.listen(source)
     
     try:
-        text = r.recognize_google(audio)
+        text = A.recognize_google(audio)
         print('You said: {}'.format(text))
     except:
         print("Sorry")
