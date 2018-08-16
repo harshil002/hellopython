@@ -33,7 +33,7 @@ write.csv(MyData, file = 'C:/Users/Harshil/Desktop/NVI-UN/NVI_Market Analysis/ha
 
 
 
-#Trend locations
+#1Trend locations
 trend <- availableTrendLocations()
 trend
 
