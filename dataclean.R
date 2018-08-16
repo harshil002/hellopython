@@ -40,7 +40,7 @@ tweetdata = read.csv("file:///C:/Users/Harshil/Desktop/658/ProjectX/trumptweets_
 tweetdata$timeline<- ydm(paste(tweetdata$created_at..year.,tweetdata$created_at..day., tweetdata$created_at..month.,sep="/"))
 
 
-# Breaking dataset into two group before and after presidency
+# Breaking dataset into two group before and after presidency j
 
 tweetdata_bp<-subset(tweetdata,tweetdata$timeline <= ydm("2016/08/11"))
 tweetdata_ap<-subset(tweetdata,tweetdata$timeline > ydm("2016/08/11"))
