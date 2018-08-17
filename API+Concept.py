@@ -27,7 +27,7 @@ B = B - 273.15
 print("Degree Celsius Temprature: ",B)
 
 
-# In[38]:
+#! In[38]:
 
 import requests
 
