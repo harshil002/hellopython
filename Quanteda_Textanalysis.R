@@ -47,7 +47,7 @@ test <- spam.raw[-indexes,]
 prop.table(table(train$Label))
 prop.table(table(test$Label))
 
-#Lets explore some examples for data exploration
+#Lets explore some examples for data exploration!
 train$Text[21]
 train$Text[38]
 train$Text[357]
