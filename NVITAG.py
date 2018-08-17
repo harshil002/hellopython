@@ -37,7 +37,7 @@ for a in range(0,len(Z1)):
         print("Tags:",i.text)
 
 
-# In[26]:
+# !In[26]:
 
 import bs4 as bs
 import requests
